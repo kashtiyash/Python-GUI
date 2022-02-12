@@ -8,7 +8,7 @@ root.config(bg="white")
 button_mode = True
 
 
-def customize():
+def switch():
     global button_mode
     if button_mode:
         button.config(image=off, bg="black", activebackground="black")
@@ -23,7 +23,7 @@ def customize():
 on = PhotoImage(file="sun.png")
 off = PhotoImage(file="night.png")
 
-button = Button(root, image=on, bd=0, bg="white", activebackground="white", command=customize)
+button = Button(root, image=on, bd=0, bg="white", activebackground="white", command=switch)
 button.pack(padx=50, pady=50)
 
 if __name__ == '__main__':
