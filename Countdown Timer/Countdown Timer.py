@@ -1,3 +1,4 @@
+# This is Timer made with Tkinter
 from tkinter import *
 from playsound import playsound
 import time
