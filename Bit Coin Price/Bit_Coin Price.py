@@ -6,6 +6,7 @@ root.title("Bit-Coin Price ")
 root.geometry("400x250")
 
 #  api was from coindesk which shows current price of the bitcoin
+# many apis are also there which return also other information about cyrptocoins
 
 url = "" # Put your api here
 
