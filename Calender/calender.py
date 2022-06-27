@@ -1,3 +1,4 @@
+#This is simple GUI for calendar using Tkinter 
 from tkinter import *
 
 from PIL import ImageTk, Image
