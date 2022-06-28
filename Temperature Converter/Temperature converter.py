@@ -1,4 +1,5 @@
 # Temperature Converter 
+
 from tkinter import *
 from PIL import ImageTk, Image
 
@@ -6,13 +7,14 @@ root = Tk()
 root.title("Temperature Converter")
 root.geometry("300x250")
 
-
+# Function to convert Fahrenheit to Celsius 
 def fahrenheit_to_celsius():
     fahrenheit = frt_entry.get()
     celsius = (5 / 9) * (float(fahrenheit) - 32)
     frt_result["text"] = f"{round(celsius, 2)}    \N{DEGREE CELSIUS}"
 
 
+# Function to convert Celsius to Fahrenheit
 def celsius_to_fahrenheit():
     celsius = cel_entry.get()
     fahrenheit = ((9 / 5) * (float(celsius))) + 32
